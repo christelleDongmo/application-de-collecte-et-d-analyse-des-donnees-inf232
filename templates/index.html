@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang=""fr>
+    <head>
+        <meta charset=""UTF-8>
+        <title>Enquete Etudiant</title>
+    </head>
+    <body>
+        <h1>Collecte de donnees  : Performance Etudiante</h1>
+        <form method="POST">
+            <label>Sexe :</label>
+            <select name="sexe"><option>Homme</option><option>Femme</option></select><br>
+
+            <label>Heures de sommeil (moyenne) :</label>
+            <input type="number" name="sommeil" required><br>
+
+            <label>Heures de travail (moyenne) :</label>
+            <input type="number" name="travail" required><br>
+
+            <label>NIveau de stress (1-10) :</label>
+            <input type="range" name="stress" min="1" max="10"><br>
+
+            <label>Taux d'assiduite (%) :</label>
+            <input type="number" name="assiduite" required><br>
+
+            <label>Moyenne academique :</label>
+            <input type="number"  step "0.1" name="moyenne" required><br>
+
+            <button type="subnit">Envoyer mes donnees</button>
+            
+        </form>
+    </body>
+</html>
